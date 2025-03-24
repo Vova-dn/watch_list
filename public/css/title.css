@@ -1,0 +1,39 @@
+.title{
+
+}
+
+
+.anime{
+    position: relative;
+    left: 25%;
+    right: 25%;
+    width: 60%;
+    height: 100%;
+}
+
+h1.name{
+    display: block;
+
+}
+
+.info{
+    display: flex;
+
+}
+
+a.info{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.photo{
+
+
+}
+
+.shortstory{
+    display: block;
+    position: relative;
+    left: 5%;
+
+}

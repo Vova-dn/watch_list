@@ -1,0 +1,93 @@
+.autorise{
+    display: block;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 200px);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3) ;
+
+}
+
+.sign_in{
+    display: block;
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+
+}
+
+form.sign_in{
+    display: block;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+h1.sign_in{
+    display: block;
+    position: relative;
+    height: 30px;
+    top: 10px;
+    font-size: 15px;
+    left: 0;
+}
+
+input.field{
+    display: block;
+    height: 25px;
+    width: 350px;
+    position: relative;
+
+}
+
+button.sign_in{
+    display: block;
+    height: 50px;
+    width: 350px;
+    position: relative;
+    left: 0;
+}
+
+hr.line{
+    display: block;
+    position: relative;
+}
+button.registration{
+    display: block;
+    height: 50px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 0;
+
+}
+
+.registration{
+    display: none;
+    width: 350px;
+    height: 550px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+
+}
+
+form.registration{
+    display: block;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+
+

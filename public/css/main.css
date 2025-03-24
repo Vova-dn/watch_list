@@ -1,0 +1,42 @@
+
+
+.main{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    display: block;
+    height: 95%;
+    width: 60%;
+}
+
+.category{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+.name{
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: darkgreen;
+
+}
+
+.contains{
+    display: block;
+    width: 100%;
+    height: 80%;
+
+
+}
+
+a.name{
+    font-size: 40px;
+    color: white;
+}
+
+h1.output{
+    display: none;
+}

@@ -1,0 +1,52 @@
+input.search{
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+
+}
+
+body{
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+
+
+
+}
+button.arrow{
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 35px);
+}
+*.d-none{
+    display: none;
+}
+
+div.search{
+    height: 200px;
+    width: 500px;
+    margin-top: 100px;
+
+}
+div.main{
+
+
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+img.anime-photo{
+
+}
+
+/**{*/
+/*    border-color: red;*/
+/*}*/

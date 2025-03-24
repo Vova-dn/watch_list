@@ -1,0 +1,82 @@
+.carousel{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-item{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1%;
+}
+
+.icon{
+    outline-color: darkgreen;
+    outline-style: solid;
+    display: block;
+    position: relative;
+    justify-items: center;
+    top: 15px;
+    height: 100%;
+    width: 100%;
+
+}
+
+a.text{
+    display: block;
+    position: relative;
+    height: 10%;
+    text-align: center;
+    word-wrap: break-word; /* Перенос длинных слов */
+    overflow-wrap: break-word; /* Альтернативное свойство */
+    white-space: normal;
+
+}
+
+img.img{
+    display: block;
+    height: 90%;
+    width: 90%;
+
+}
+
+button.href{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+form.href{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#prev{
+    clip-path: polygon( 0% 50%, 50% 0%, 100% 0%, 50% 50%, 100% 100%, 50% 100%);
+    display: block;
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 60%;
+}
+
+#next{
+    clip-path: polygon( 0% 0%, 50% 0%, 100% 50%, 50% 100%, 0% 100%, 50% 50%);
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 60%;
+    left: calc(100% - 50px);
+}
+
